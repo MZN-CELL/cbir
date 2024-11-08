@@ -1,0 +1,155 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Filter Button Styles */
+.btn-outline-light {
+    color: #FF5722; /* Shopee's orange text color */
+    background-color: white; /* White background for idle state */
+    border: 2px solid #FF5722; /* Border color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.btn-outline-light:hover {
+    background-color: #E64A19; /* Darker shade for hover state */
+    color: white; /* Change text color on hover */
+}
+
+.btn-outline-light.active {
+    background-color: #FF5722; /* Shopee's orange for active state */
+    color: white; /* White text in active state */
+}
+
+
+.btn-outline-danger:hover {
+    background-color: rgba(255, 87, 34, 0.1); /* Light hover effect */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #FF5722; /* Shopee's orange */
+}
+
+.navbar .navbar-brand {
+    color: white; /* Brand color */
+}
+
+/* Header Styles */
+.header {
+    background-color: #FF5722; /* Shopee's orange */
+}
+
+.header .btn {
+    color: white; /* Button text color */
+}
+
+/* Responsive Search Bar */
+@media (max-width: 768px) {
+    .header .form-control {
+        width: 100%;
+    }
+    .header .d-flex {
+        flex-direction: column;
+    }
+    .header .btn {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+/* Main Container Styles */
+.container {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.card-text {
+    color: #FF5722; /* Shopee's orange */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card .btn-primary {
+    background-color: #FF5722; /* Shopee's orange */
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+}
+
+.card .btn-primary:hover {
+    background-color: #E64A19; /* Darker shade for hover effect */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #FF5722; /* Shopee's orange */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.table {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.table th, .table td {
+    vertical-align: middle; /* Align items in the middle */
+}
+
+.table-light {
+    background-color: #f8f9fa; /* Light background for header */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red background for delete button */
+}
+
+.btn-success {
+    background-color: #28a745; /* Green for checkout button */
+}
